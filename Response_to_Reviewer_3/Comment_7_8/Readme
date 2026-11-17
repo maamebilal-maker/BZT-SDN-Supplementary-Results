@@ -1,0 +1,19 @@
+7- Stability and Sensitivity of the Recurrence-Aware Trust Model
+The recurrence-aware trust-scoring mechanism is evaluated using semi-synthetic sequences of clean and 
+reinforcement-learning-manipulated flow windows, including patterns such as one weak window followed
+by multiple reliable windows. Although these scenarios provide controlled experiments, they do not necessarily 
+reproduce the temporal dependence, burstiness, and behavioral drift of operational IoT traffic. 
+Please justify the selected temporal patterns and evaluate the trust model under alternative anomaly frequencies,
+burst durations, and nonstationary traffic conditions. Where possible, validation using temporally ordered 
+traffic traces would strengthen the evidence that the proposed recurrence mechanism can identify low-rate
+manipulation without unnecessarily disrupting legitimate sessions.
+
+8- Limitations of the Semi-Synthetic Temporal Evaluation
+The effectiveness of the trust-scoring mechanism that is aware of the recurrence is tested with semi-synthetic sequences
+consisting of a sequence of clean flow windows and a sequence of flow windows manipulated using the reinforcement learning
+method, including patterns like a single weak flow window followed by several reliable flow windows. While these scenarios
+afford controlled experiments, they are not necessarily representative of the temporal dependency, burstiness, and behavioral
+drift found in operational IoT traffic. Justify the chosen temporal patterns and analyze the trust model when the anomaly 
+frequency, anomaly duration and the nonstationary traffic are changed. In the future, it would be useful to have more evidence
+that the proposed recurrence mechanism can detect low-rate manipulation without interfering with legitimate sessions, 
+where such evidence can be provided by validation based on temporally ordered traces of traffic.
